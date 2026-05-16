@@ -10,6 +10,50 @@
   --warm: #f0e6d3;
   --accent-gold: #d4a843;
 }
+
+/* filepath: [styles.css](http://_vscodecontentref_/0) */
+
+/* Playfair Display Regular */
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('./fonts/PlayfairDisplay-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Playfair Display Bold */
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('./fonts/PlayfairDisplay-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Sora Regular */
+@font-face {
+  font-family: 'Sora';
+  src: url('./fonts/Sora-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Sora Bold */
+@font-face {
+  font-family: 'Sora';
+  src: url('./fonts/Sora-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Apply the fonts */
+body {
+  font-family: 'Playfair Display', serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Sora', sans-serif;
+}
+
 * { margin:0; padding:0; box-sizing:border-box; }
 html { scroll-behavior: smooth; }
 body {
