@@ -13,18 +13,19 @@ const CONTENT = {
   },
 
   hero: {
-    badge: "Civil Construction · PMC",
+    badge: "Civil Construction",
+    subbadge: "PMC",
     heading: 'Crafting Spaces That <span class="highlight">Inspire</span> Generations',
     subheading: "From architectural vision to structural precision — CHOLA delivers excellence in civil construction and project management across Kerala.",
     btnPrimary: "Explore Projects",
     btnSecondary: "Start Your Project",
-    imgLabel1: "Project Zul_Haj · Kannur",
+    imgLabel1: "Rajesh Residence · Kannur",
     imgLabel2: "Project Raag · 6000 sqft"
   },
 
   stats: [
-    { count: 150, label: "Projects Delivered" },
-    { count: 12,  label: "Years Experience" },
+    { count: 10, label: "Projects Delivered" },
+    { count: 5,  label: "Years Experience" },
     { count: 35,  label: "Expert Team" },
     { count: 98,  label: "Client Satisfaction %" }
   ],
@@ -67,11 +68,12 @@ const CONTENT = {
     heading: "Featured Projects",
     subtitle: "A showcase of our finest work across Kannur and Kerala — from luxury residences to modern renovations.",
     items: [
-      { name: "Project Raag",      tag: "Residential", location: "Kannur", area: "6000 sqft", architect: "Silpi Architects",      img: "project2.jpeg", alt: "Project Raag" },
-      { name: "Project Zul_Haj",   tag: "Residential", location: "Kannur", area: "2000 sqft", architect: "Dhi Tact Architects",   img: "project1.jpeg", alt: "Project Zul_Haj" },
-      { name: "Anoop Residence",   tag: "Residential", location: "Kannur", area: "4000 sqft", architect: "Ar. Deepak",            placeholder: "pp1" },
-      { name: "Rajesh Residence",  tag: "Residential", location: "Kannur", area: "4000 sqft",                                     placeholder: "pp2" },
-      { name: "Renju John Home",   tag: "Renovation",  location: "Kannur", architect: "Dhi Tact Architects", subTag: "Renovation", placeholder: "pp3" }
+      { name: "Project Raag",      tag: "Residential", location: "Kannur", area: "6000 sqft", architect: "Silpi Architects",      img: "images/projects/project2.jpeg", alt: "Project Raag" },
+      { name: "Rajesh Residence",   tag: "Residential", location: "Kannur", area: "4000 sqft", architect: "Dhi Tact Architects",   img: "images/projects/project1.jpeg", alt: "Project Zul_Haj" },
+      { name: "Anoop Residence",   tag: "Residential", location: "Kannur", area: "4000 sqft", architect: "Ar. Deepak", img: "images/projects/anoopresidence.jpeg", placeholder: "pp1" },
+      { name: "Project Zul_Haj",  tag: "Residential", location: "Kannur", area: "2000 sqft", img: "images/projects/zulhaj.jpeg", placeholder: "pp2" },
+      { name: "Renju John Home",   tag: "Renovation",  location: "Kannur", architect: "Dhi Tact Architects", img: "images/projects/renjujohn.jpeg", subTag: "Renovation", placeholder: "pp3" },
+      { name: "Shabeer Home",   tag: "Residential",  location: "Kannur", architect: "Ababi Engineer",img: "images/projects/shabeer.jpeg",  placeholder: "pp3" }
     ],
     more: { label: "More Projects", sublabel: "Coming Soon" }
   },
@@ -111,8 +113,8 @@ const CONTENT = {
     subtitle: "Ready to build your dream space? Reach out for a free consultation.",
     leftHeading: "Let's Build Together",
     leftBody: "Whether it's a new home, a renovation, or a commercial project — we'd love to hear your vision and make it a reality.",
-    office: { label: "Office", value: "Kannur, Kerala, India" },
-    phone:  { label: "Phone",  value: "+91 XXXXX XXXXX" },
+    office: { label: "Office", value: "CHOLA,	Room No 306, Amenity Centre, Kannur University, Thavakkara, Kannur, Kerala, India" },
+    phone:  { label: "Phone",  value: "+91 94964 31692" },
     email:  { label: "Email",  value: "info@cholaconstruction.com" },
     form: {
       namePlaceholder:     "Your Name",
